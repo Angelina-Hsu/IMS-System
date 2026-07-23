@@ -23,7 +23,8 @@ jobs:
       run: .\nuget.exe restore "CartSalesSystem.sln"
 
     - name: Build solution (Release)
-      run: msbuild "CartSalesSystem.sln" /p:Configuration=Release /m
+      shell: pwsh
+      run: $vswhere = Join-Path ${env:ProgramFiles(x86)} 'Microsoft Visual Studio\Installer\vswhere.exe' if (-Not (Test-Path $vswhere)) { Write-Error 'vswhere not found' ; exit 1 } $installPath = & $vswhere -latest -products * -requires Microsoft.Component.MSBuild -property installationPath if (-Not $installPath) { Write-Error 'Visual Studio with MSBuild not found' ; exit 1 } $msbuild = Join-Path $installPath 'MSBuild\Current\Bin\MSBuild.exe' if (-Not (Test-Path $msbuild)) { Write-Error "MSBuild.exe not found at $msbuild"; exit 1 } & $msbuild "CartSalesSystem.sln" /p:Configuration=Release /m
 
     - name: Collect build artifacts and zip
       shell: pwsh
