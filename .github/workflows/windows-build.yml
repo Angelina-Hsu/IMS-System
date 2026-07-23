@@ -1,0 +1,72 @@
+name: Build and publish .NET Framework
+
+on:
+  push:
+    branches: [ master ]
+    tags: [ 'v*' ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Download nuget.exe
+      shell: pwsh
+      run: |
+        Invoke-WebRequest -Uri https://dist.nuget.org/win-x86-commandline/latest/nuget.exe -OutFile nuget.exe
+
+    - name: Restore NuGet packages
+      shell: pwsh
+      run: .\nuget.exe restore "CartSalesSystem.sln"
+
+    - name: Build solution (Release)
+      run: msbuild "CartSalesSystem.sln" /p:Configuration=Release /m
+
+    - name: Collect build artifacts and zip
+      shell: pwsh
+      run: |
+        $out = "artifact"
+        Remove-Item -Recurse -Force $out -ErrorAction SilentlyContinue
+        New-Item -ItemType Directory -Path $out | Out-Null
+        # copy all Release bin outputs
+        Get-ChildItem -Path . -Recurse -Include "bin\Release\*" -File | ForEach-Object {
+          $relative = $_.FullName.Substring((Get-Location).Path.Length+1)
+          $dest = Join-Path $out $relative
+          New-Item -ItemType Directory -Path (Split-Path $dest) -Force | Out-Null
+          Copy-Item $_.FullName -Destination $dest -Force
+        }
+        # include any published output folders if present
+        if (Test-Path -Path "publish") {
+          Copy-Item -Path publish -Destination $out -Recurse -Force
+        }
+        Compress-Archive -Path $out -DestinationPath artifact.zip -Force
+
+    - name: Upload artifact to workflow
+      uses: actions/upload-artifact@v4
+      with:
+        name: cartsales-artifact
+        path: artifact.zip
+
+    - name: Create GitHub Release (on tag)
+      if: startsWith(github.ref, 'refs/tags/')
+      id: create_release
+      uses: actions/create-release@v1
+      with:
+        tag_name: ${{ github.ref_name }}
+        release_name: Release ${{ github.ref_name }}
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Upload release asset (on tag)
+      if: startsWith(github.ref, 'refs/tags/')
+      uses: actions/upload-release-asset@v1
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: artifact.zip
+        asset_name: cartsales-${{ github.ref_name }}.zip
+        asset_content_type: application/zip
