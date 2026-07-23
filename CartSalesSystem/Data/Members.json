@@ -1,0 +1,242 @@
+[
+  {
+    "MemberID": 1,
+    "MemberName": "王小明",
+    "Gender": "男",
+    "Phone": "0912345678",
+    "Email": "xiaoming@example.com",
+    "Points": 120
+  },
+  {
+    "MemberID": 2,
+    "MemberName": "陳美華",
+    "Gender": "女",
+    "Phone": "0923456789",
+    "Email": "meihua@example.com",
+    "Points": 350
+  },
+  {
+    "MemberID": 3,
+    "MemberName": "李志豪",
+    "Gender": "男",
+    "Phone": "0934567890",
+    "Email": "zhihao@example.com",
+    "Points": 80
+  },
+  {
+    "MemberID": 4,
+    "MemberName": "林怡君",
+    "Gender": "女",
+    "Phone": "0945678901",
+    "Email": "yijun@example.com",
+    "Points": 500
+  },
+  {
+    "MemberID": 5,
+    "MemberName": "張家豪",
+    "Gender": "男",
+    "Phone": "0956789012",
+    "Email": "jiahao@example.com",
+    "Points": 230
+  },
+  {
+    "MemberID": 6,
+    "MemberName": "黃淑芬",
+    "Gender": "女",
+    "Phone": "0967890123",
+    "Email": "shufen@example.com",
+    "Points": 680
+  },
+  {
+    "MemberID": 7,
+    "MemberName": "吳承翰",
+    "Gender": "男",
+    "Phone": "0978901234",
+    "Email": "chenghan@example.com",
+    "Points": 45
+  },
+  {
+    "MemberID": 8,
+    "MemberName": "楊雅婷",
+    "Gender": "女",
+    "Phone": "0989012345",
+    "Email": "yating@example.com",
+    "Points": 310
+  },
+  {
+    "MemberID": 9,
+    "MemberName": "劉志明",
+    "Gender": "男",
+    "Phone": "0990123456",
+    "Email": "zhiming@example.com",
+    "Points": 175
+  },
+  {
+    "MemberID": 10,
+    "MemberName": "周欣怡",
+    "Gender": "女",
+    "Phone": "0911123456",
+    "Email": "xinyi@example.com",
+    "Points": 420
+  },
+  {
+    "MemberID": 11,
+    "MemberName": "徐偉翔",
+    "Gender": "男",
+    "Phone": "0922234567",
+    "Email": "weixiang@example.com",
+    "Points": 890
+  },
+  {
+    "MemberID": 12,
+    "MemberName": "孫婉婷",
+    "Gender": "女",
+    "Phone": "0933345678",
+    "Email": "wanting@example.com",
+    "Points": 60
+  },
+  {
+    "MemberID": 13,
+    "MemberName": "陳建宏",
+    "Gender": "男",
+    "Phone": "0944456789",
+    "Email": "jianhong@example.com",
+    "Points": 1500
+  },
+  {
+    "MemberID": 14,
+    "MemberName": "林靜怡",
+    "Gender": "女",
+    "Phone": "0955567890",
+    "Email": "jingyi@example.com",
+    "Points": 210
+  },
+  {
+    "MemberID": 15,
+    "MemberName": "羅志祥",
+    "Gender": "男",
+    "Phone": "0966678901",
+    "Email": "zhixiang@example.com",
+    "Points": 0
+  },
+  {
+    "MemberID": 16,
+    "MemberName": "張韶涵",
+    "Gender": "女",
+    "Phone": "0977789012",
+    "Email": "shaohan@example.com",
+    "Points": 750
+  },
+  {
+    "MemberID": 17,
+    "MemberName": "周杰倫",
+    "Gender": "男",
+    "Phone": "0988890123",
+    "Email": "jielun@example.com",
+    "Points": 2000
+  },
+  {
+    "MemberID": 18,
+    "MemberName": "蔡依林",
+    "Gender": "女",
+    "Phone": "0999901234",
+    "Email": "jolin@example.com",
+    "Points": 1800
+  },
+  {
+    "MemberID": 19,
+    "MemberName": "蕭敬騰",
+    "Gender": "男",
+    "Phone": "0910012345",
+    "Email": "jam@example.com",
+    "Points": 620
+  },
+  {
+    "MemberID": 20,
+    "MemberName": "田馥甄",
+    "Gender": "女",
+    "Phone": "0921123456",
+    "Email": "hebe@example.com",
+    "Points": 880
+  },
+  {
+    "MemberID": 21,
+    "MemberName": "林俊傑",
+    "Gender": "男",
+    "Phone": "0932234567",
+    "Email": "jj@example.com",
+    "Points": 950
+  },
+  {
+    "MemberID": 22,
+    "MemberName": "王心凌",
+    "Gender": "女",
+    "Phone": "0943345678",
+    "Email": "cyndi@example.com",
+    "Points": 430
+  },
+  {
+    "MemberID": 23,
+    "MemberName": "楊丞琳",
+    "Gender": "女",
+    "Phone": "0954456789",
+    "Email": "rainie@example.com",
+    "Points": 560
+  },
+  {
+    "MemberID": 24,
+    "MemberName": "潘瑋柏",
+    "Gender": "男",
+    "Phone": "0965567890",
+    "Email": "wilber@example.com",
+    "Points": 340
+  },
+  {
+    "MemberID": 25,
+    "MemberName": "SHE",
+    "Gender": "女",
+    "Phone": "0976678901",
+    "Email": "she@example.com",
+    "Points": 1200
+  },
+  {
+    "MemberID": 26,
+    "MemberName": "五月天阿信",
+    "Gender": "男",
+    "Phone": "0987789012",
+    "Email": "ashin@example.com",
+    "Points": 2500
+  },
+  {
+    "MemberID": 27,
+    "MemberName": "梁靜茹",
+    "Gender": "女",
+    "Phone": "0998890123",
+    "Email": "fish@example.com",
+    "Points": 670
+  },
+  {
+    "MemberID": 28,
+    "MemberName": "王力宏",
+    "Gender": "男",
+    "Phone": "0919901234",
+    "Email": "leehom@example.com",
+    "Points": 780
+  },
+  {
+    "MemberID": 29,
+    "MemberName": "張惠妹",
+    "Gender": "女",
+    "Phone": "0920012345",
+    "Email": "a-mei@example.com",
+    "Points": 3000
+  },
+  {
+    "MemberID": 30,
+    "MemberName": "劉德華",
+    "Gender": "男",
+    "Phone": "0931123456",
+    "Email": "andy@example.com",
+    "Points": 5000
+  }
+]

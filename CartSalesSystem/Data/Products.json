@@ -1,0 +1,227 @@
+[
+  {
+    "ProductID": 1,
+    "ProductName": "木質調洗髮乳",
+    "Category": "頭髮護理",
+    "Price": 520,
+    "Stock": 30,
+    "PhotoFileName": "木質調洗髮乳.jpg"
+  },
+  {
+    "ProductID": 2,
+    "ProductName": "木質調護髮乳",
+    "Category": "頭髮護理",
+    "Price": 550,
+    "Stock": 28,
+    "PhotoFileName": "木質調護髮乳.jpg"
+  },
+  {
+    "ProductID": 3,
+    "ProductName": "花香洗髮乳",
+    "Category": "頭髮護理",
+    "Price": 480,
+    "Stock": 35,
+    "PhotoFileName": "花香洗髮乳.jpg"
+  },
+  {
+    "ProductID": 4,
+    "ProductName": "花果護髮乳",
+    "Category": "頭髮護理",
+    "Price": 510,
+    "Stock": 22,
+    "PhotoFileName": "花果護髮乳.jpg"
+  },
+  {
+    "ProductID": 5,
+    "ProductName": "森林洗髮乳",
+    "Category": "頭髮護理",
+    "Price": 500,
+    "Stock": 40,
+    "PhotoFileName": "森林洗髮乳.jpg"
+  },
+  {
+    "ProductID": 6,
+    "ProductName": "森林護髮乳",
+    "Category": "頭髮護理",
+    "Price": 530,
+    "Stock": 25,
+    "PhotoFileName": "森林護髮乳.jpg"
+  },
+  {
+    "ProductID": 7,
+    "ProductName": "月光玫瑰沐浴乳",
+    "Category": "身體沐洗保養",
+    "Price": 380,
+    "Stock": 50,
+    "PhotoFileName": "月光玫瑰沐浴乳.jpg"
+  },
+  {
+    "ProductID": 8,
+    "ProductName": "牡丹夢境沐浴乳",
+    "Category": "身體沐洗保養",
+    "Price": 390,
+    "Stock": 45,
+    "PhotoFileName": "牡丹夢境沐浴乳.jpg"
+  },
+  {
+    "ProductID": 9,
+    "ProductName": "募光花語沐浴乳",
+    "Category": "身體沐洗保養",
+    "Price": 400,
+    "Stock": 42,
+    "PhotoFileName": "募光花語沐浴乳.jpg"
+  },
+  {
+    "ProductID": 10,
+    "ProductName": "綠茶身體乳",
+    "Category": "身體沐洗保養",
+    "Price": 450,
+    "Stock": 38,
+    "PhotoFileName": "綠茶身體乳.jpg"
+  },
+  {
+    "ProductID": 11,
+    "ProductName": "蜂蜜身體乳",
+    "Category": "身體沐洗保養",
+    "Price": 460,
+    "Stock": 35,
+    "PhotoFileName": "蜂蜜身體乳.jpg"
+  },
+  {
+    "ProductID": 12,
+    "ProductName": "薰衣草身體乳",
+    "Category": "身體沐洗保養",
+    "Price": 440,
+    "Stock": 40,
+    "PhotoFileName": "薰衣草身體乳.jpg"
+  },
+  {
+    "ProductID": 13,
+    "ProductName": "雪松身體乳",
+    "Category": "身體沐洗保養",
+    "Price": 470,
+    "Stock": 33,
+    "PhotoFileName": "雪松身體乳.jpg"
+  },
+  {
+    "ProductID": 14,
+    "ProductName": "柑橘身體乳",
+    "Category": "身體沐洗保養",
+    "Price": 430,
+    "Stock": 37,
+    "PhotoFileName": "柑橘身體乳.jpg"
+  },
+  {
+    "ProductID": 15,
+    "ProductName": "雨後甘霖身體乳",
+    "Category": "身體沐洗保養",
+    "Price": 490,
+    "Stock": 29,
+    "PhotoFileName": "雨後甘霖身體乳.jpg"
+  },
+  {
+    "ProductID": 16,
+    "ProductName": "亮白洗面乳",
+    "Category": "臉部清潔",
+    "Price": 350,
+    "Stock": 60,
+    "PhotoFileName": "亮白洗面乳.jpg"
+  },
+  {
+    "ProductID": 17,
+    "ProductName": "玻尿酸保濕洗面乳",
+    "Category": "臉部清潔",
+    "Price": 370,
+    "Stock": 55,
+    "PhotoFileName": "玻尿酸保濕洗面乳.jpg"
+  },
+  {
+    "ProductID": 18,
+    "ProductName": "膠原蛋白洗面乳",
+    "Category": "臉部清潔",
+    "Price": 390,
+    "Stock": 50,
+    "PhotoFileName": "膠原蛋白洗面乳.jpg"
+  },
+  {
+    "ProductID": 19,
+    "ProductName": "積雪草舒緩洗面乳",
+    "Category": "臉部清潔",
+    "Price": 410,
+    "Stock": 48,
+    "PhotoFileName": "積雪草舒緩洗面乳.jpg"
+  },
+  {
+    "ProductID": 20,
+    "ProductName": "玫瑰花水",
+    "Category": "臉部清潔",
+    "Price": 280,
+    "Stock": 70,
+    "PhotoFileName": "玫瑰花水.jpg"
+  },
+  {
+    "ProductID": 21,
+    "ProductName": "薰衣草花水",
+    "Category": "臉部清潔",
+    "Price": 280,
+    "Stock": 68,
+    "PhotoFileName": "薰衣草花水.jpg"
+  },
+  {
+    "ProductID": 22,
+    "ProductName": "薄荷花水",
+    "Category": "臉部清潔",
+    "Price": 290,
+    "Stock": 65,
+    "PhotoFileName": "薄荷花水.jpg"
+  },
+  {
+    "ProductID": 23,
+    "ProductName": "美白精華",
+    "Category": "臉部清潔",
+    "Price": 880,
+    "Stock": 25,
+    "PhotoFileName": "美白精華.jpg"
+  },
+  {
+    "ProductID": 24,
+    "ProductName": "燕窩胜肽精華",
+    "Category": "臉部清潔",
+    "Price": 1200,
+    "Stock": 20,
+    "PhotoFileName": "燕窩胜肽精華.jpg"
+  },
+  {
+    "ProductID": 25,
+    "ProductName": "藍銅修護精華",
+    "Category": "臉部清潔",
+    "Price": 1350,
+    "Stock": 18,
+    "PhotoFileName": "藍銅修護精華.jpg"
+  },
+  {
+    "ProductID": 26,
+    "ProductName": "雪絨花緊緻反重力乳液",
+    "Category": "臉部清潔",
+    "Price": 1680,
+    "Stock": 15,
+    "PhotoFileName": "雪絨花緊緻反重力乳液.jpg"
+  },
+  {
+    "ProductID": 27,
+    "ProductName": "海罌粟沙棘繃亮霜",
+    "Category": "臉部清潔",
+    "Price": 1490,
+    "Stock": 16,
+    "PhotoFileName": "海罌粟沙棘繃亮霜.jpg"
+  },
+  {
+    "ProductID": 28,
+    "ProductName": "松藻舒敏賦活霜",
+    "Category": "臉部清潔",
+    "Price": 1420,
+    "Stock": 14,
+    "PhotoFileName": "松藻舒敏賦活霜.jpg"
+  }
+]
+
